@@ -907,10 +907,8 @@
     <footer class="main-footer hidden-print" style="display:grid;flex-direction:column;">
 
         <div class="1hidden-xs pull-left">
-            <div class="pull-left">
-                <a target="_blank" href="https://snipeitapp.com" rel="noopener">Snipe-IT</a> is open source software,
-                made with <span class="sr-only">love</span> by <a href="https://twitter.com/snipeitapp"
-                    rel="noopener">@snipeitapp</a>.
+            <div class="text-center">
+                Aguas de Mérida 2024
             </div>
             <div class="pull-right">
                 @if ($snipeSettings->version_footer != 'off')
