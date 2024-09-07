@@ -2,7 +2,7 @@
 
 return [
     'about_assets_title'           => 'Acerca de los activos',
-    'about_assets_text'            => 'Los activos son artículos rastreados por número de serie o placa de activo.  Suelen ser artículos de alto valor en los que es importante identificar un elemento específico.',
+    'about_assets_text'            => 'Los activos son artículos rastreados por número de serie o código de activo.  Suelen ser artículos de alto valor en los que es importante identificar un elemento específico.',
     'archived'  				=> 'Archivado',
     'asset'  					=> 'Activo',
     'bulk_checkout'             => 'Asignar activos',
@@ -27,7 +27,7 @@ return [
     'undeployable_tooltip'  	=> 'Este activo tiene una etiqueta de estado que es no utilizable y no puede ser asignado en este momento.',
     'view'  					=> 'Ver activo',
     'csv_error' => 'Tiene un error en su archivo CSV:',
-    'import_text' => '<p>Cargue un archivo CSV que contenga el historial de los activos. Los activos y los usuarios DEBEN existir ya en el sistema, o serán omitidos. La comparación de activos para importar el historial se realiza con la placa del activo. Intentaremos encontrar un usuario usando el nombre del usuario que proporcione y los criterios que seleccione a continuación. Si no selecciona ningún criterio, el sistema simplemente intentará usar el formato de nombre de usuario configurado en <code>Administrador &gt; Configuración General</code>.</p><p>Los campos incluidos en el CSV deben coincidir con los encabezados: <strong>Asset Tag, Name, Checkout Date, Checkin Date</strong>. Cualquier campo adicional será ignorado.</p><p>Checkin Date(Fecha de recepción): dejar en blanco o usar fechas futuras asignará los ítems al usuario asociado. Excluir la columna Checkin Date creará una fecha de recepción con la fecha de hoy.</p>    ',
+    'import_text' => '<p>Cargue un archivo CSV que contenga el historial de los activos. Los activos y los usuarios DEBEN existir ya en el sistema, o serán omitidos. La comparación de activos para importar el historial se realiza con el código del activo. Intentaremos encontrar un usuario usando el nombre del usuario que proporcione y los criterios que seleccione a continuación. Si no selecciona ningún criterio, el sistema simplemente intentará usar el formato de nombre de usuario configurado en <code>Administrador &gt; Configuración General</code>.</p><p>Los campos incluidos en el CSV deben coincidir con los encabezados: <strong>Asset Tag, Name, Checkout Date, Checkin Date</strong>. Cualquier campo adicional será ignorado.</p><p>Checkin Date(Fecha de recepción): dejar en blanco o usar fechas futuras asignará los ítems al usuario asociado. Excluir la columna Checkin Date creará una fecha de recepción con la fecha de hoy.</p>    ',
     'csv_import_match_f-l' => 'Intente emparejar usuarios usando el formato <strong>nombre.apellido</strong> (<code>jane.smith</code>)',
     'csv_import_match_initial_last' => 'Intente emparejar los usuarios usando el formato <strong>inicial del nombre y apellido</strong> (<code>jsmith</code>)',
     'csv_import_match_first' => 'Intentar emparejar a los usuarios usando el formato <strong>primer nombre</strong> (<code>jane</code>)',

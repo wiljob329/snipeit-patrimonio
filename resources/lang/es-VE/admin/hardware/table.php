@@ -2,7 +2,7 @@
 
 return [
 
-    'asset_tag'   	=> 'Placa del activo',
+    'asset_tag'   	=> 'Código del activo',
     'asset_model'       => 'Modelo',
     'assigned_to'   => 'Asignado a',
     'book_value'  	=> 'Valor actual',

@@ -45,7 +45,7 @@ return [
     'select_statustype'	=> 'Seleccionar un tipo de estado',
     'serial'			=> 'Número de serie',
     'status'			=> 'Estado',
-    'tag'				=> 'Placa del activo',
+    'tag'				=> 'Código del activo',
     'update'			=> 'Actualizar activo',
     'warranty'			=> 'Garantía',
         'warranty_expires'		=> 'Vencimiento de la garantía',

@@ -4,8 +4,8 @@ return [
 
     'undeployable' 		=> '<strong>Advertencia:</strong> Este activo actualmente está marcado como no utilizable. Si este estado ha cambiado, por favor, actualice el estado del activo.',
     'does_not_exist' 	=> 'El activo no existe.',
-    'does_not_exist_var'=> 'Activo con placa :asset_tag no encontrado.',
-    'no_tag' 	        => 'No se ha proporcionado ninguna placa de activo.',
+    'does_not_exist_var'=> 'Activo con código :asset_tag no encontrado.',
+    'no_tag' 	        => 'No se ha proporcionado ninguna código de activo.',
     'does_not_exist_or_not_requestable' => 'Ese activo no existe o no es solicitable.',
     'assoc_users'	 	=> 'Actualmente este activo está asignado a un usuario y no puede ser eliminado. Por favor, primero devuelva o recupere el activo y vuelva a intentarlo. ',
     'warning_audit_date_mismatch' 	=> 'La próxima fecha de auditoría de este activo (:next_audit_date) es anterior a la última fecha de auditoría (:last_audit_date). Por favor, actualice la próxima fecha de auditoría.',
@@ -13,7 +13,7 @@ return [
     'create' => [
         'error'   		=> 'El activo no fue creado, por favor, inténtelo de nuevo. :(',
         'success' 		=> 'Activo creado con éxito. :)',
-        'success_linked' => 'Activo con placa :tag creado con éxito. <strong><a href=":link" style="color: white;">Haga clic aquí para ver</a></strong>.',
+        'success_linked' => 'Activo con código :tag creado con éxito. <strong><a href=":link" style="color: white;">Haga clic aquí para ver</a></strong>.',
     ],
 
     'update' => [
